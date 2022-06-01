@@ -1,5 +1,6 @@
 package priv.muchia.firstweather.logic
 
+import android.util.Log
 import androidx.lifecycle.liveData
 import kotlinx.coroutines.Dispatchers
 import priv.muchia.firstweather.logic.network.WeatherNetwork
@@ -15,6 +16,7 @@ object Repository {
 
     fun searchCities(location: String) = liveData(Dispatchers.IO) {
         val result = try {
+            Log.d("repository", location)
             val cityResponse = WeatherNetwork.searchCities(location)
             if (cityResponse.code == "200"){
                 val city = cityResponse.location
