@@ -9,7 +9,7 @@
         android:id="@+id/search_edit_frame"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/design_default_color_primary"
+        android:background="@color/design_default_color_secondary_variant"
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText

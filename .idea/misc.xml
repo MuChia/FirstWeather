@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/activity_weather.xml" value="0.37771739130434784" />
         <entry key="app/src/main/res/layout/fragment_city.xml" value="0.3765625" />
         <entry key="app/src/main/res/layout/fragment_weather.xml" value="0.3765625" />
         <entry key="app/src/main/res/layout/item_city.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/item_weather_future.xml" value="0.37771739130434784" />
+        <entry key="app/src/main/res/layout/part_weather_current.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/part_weather_future.xml" value="0.37771739130434784" />
+        <entry key="app/src/main/res/layout/part_weather_indices.xml" value="0.37771739130434784" />
       </map>
     </option>
   </component>
